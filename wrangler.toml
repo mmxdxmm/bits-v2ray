@@ -2,7 +2,9 @@ name = "bits"
 main = "src/worker.ts"
 compatibility_date = "2024-01-01"
 [build]
-esbuild = { "target": "es2022", "format": "esm" }
+esbuild = [
+  { "target": "es2022", "format": "esm" }
+]
 
 
 kv_namespaces = [
